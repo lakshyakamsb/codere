@@ -19,9 +19,11 @@ const Navbar = () => {
       <nav className={`navbar navbar-expand-lg navbar-light bg-primary bg-gradient fixed-top bg-light  `}>
         
         <div className="container ">
-          <Link to="/" className="navbar-brand">
-            <img src="./image/img.jpg" alt="thierj" className="custom-logo img-fluid" />
-          </Link>
+        <Link to="/" className="navbar-brand">
+          <img src={process.env.PUBLIC_URL + '/image/lkl.jpg'} alt="Website Logo" className="custom-logo img-fluid" />
+       </Link>
+
+
           <button
             className={`navbar-toggler ${showNavbar ? '' : 'collapsed'}`}
             type="button"

@@ -88,7 +88,7 @@ const Contact = () => {
             <div className="text-center">
               <a
                 href="https://www.facebook.com/shuddhivigrah.wellness"
-                target="_blank"
+                target="blank"
                 className="btn btn-primary btn-lg"
               >
                 <i className="fab fa-facebook me-2"></i>Facebook
@@ -101,7 +101,7 @@ const Contact = () => {
             <div className="text-center">
               <a
                 href="https://instagram.com/shudhhivigrah?igshid=NTc4MTIwNjQ2YQ=="
-                target="_blank"
+                target="blank"
                 className="btn btn-primary btn-lg"
               >
                 <i className="fab fa-instagram me-2"></i>Instagram
@@ -122,7 +122,7 @@ const Contact = () => {
             <div className="text-center">
               <a
                 href="https://api.whatsapp.com/send?phone=7042788829"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 className="btn btn-success btn-lg"
               >
                 <i className="fab fa-whatsapp me-2"></i>WhatsApp
